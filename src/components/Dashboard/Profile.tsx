@@ -63,9 +63,7 @@ const Profile = () => {
           <div className="flex-1 text-center md:text-left">
             <h2 className="text-2xl font-semibold mb-1">{user?.name}</h2>
             <p className="text-gray-600 mb-3">{user?.email}</p>
-            <p className="text-gray-500 text-sm">
-              Участник с {new Date().toLocaleDateString('ru-RU', { month: 'long', year: 'numeric' })}
-            </p>
+            
           </div>
           <div className="mt-4 md:mt-0">
             <button

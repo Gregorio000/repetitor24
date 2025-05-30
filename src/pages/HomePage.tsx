@@ -336,7 +336,7 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Раздел CTA */}
+      {/* Раздел CTA
       <section className="py-20 bg-gradient-to-r from-primary-700 to-primary-900 text-white">
         <div className="container-custom text-center">
           <motion.h2
@@ -369,7 +369,7 @@ const HomePage = () => {
             </Link>
           </motion.div>
         </div>
-      </section>
+      </section> */}
 
       {/* Раздел "Почему выбрать нас" */}
       <section className="section">

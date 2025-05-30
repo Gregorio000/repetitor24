@@ -20,15 +20,11 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="tutors" element={<TutorsPage />} />
-
-          {/* ВАЖНО: этот маршрут должен стоять перед tutors/:id */}
           <Route path="tutors/:id/book" element={<BookingPage />} />
-
           <Route path="tutors/:id" element={<TutorDetailPage />} />
           <Route path="dashboard/*" element={<DashboardPage />} />
           <Route path="instruction/*" element={<InstructionPage />} />
           <Route path="booking-success" element={<BookingSuccessPage />} />
-
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>
